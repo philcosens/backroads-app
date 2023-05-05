@@ -19,7 +19,7 @@ const Footer = (props) => {
             const { id, href, icon } = navIcon;
             return (
               <li key={id}>
-                <a href={href} target="_blank" className="footer-icon">
+                <a href={href} target="_blank" rel="noreferrer" className="footer-icon">
                   <i className={icon}></i>
                 </a>
               </li>
